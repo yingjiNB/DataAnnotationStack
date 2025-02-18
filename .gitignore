@@ -4,8 +4,27 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# Project specific
+uploads/
+*.db
+*.db-journal
+.env
+
+# Logs
+logs/
+
+# System
+.DS_Store
 
 # C extensions
 *.so
